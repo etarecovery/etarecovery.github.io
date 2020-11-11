@@ -105,22 +105,33 @@ html, body {
     line-height: 32px;
 }
 
+
+a {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 800;
+    overflow: hidden;
+    color: red;
+  }
+
 a:link {
-    color:#e4a93b;
+    color:white;
     background-color: transparent;
     text-decoration: none;
   }
 
 a:hover {
     text-decoration: none;
-    transform: scale(2);
+    transform: scale(1.1);
     --webkit
 }
 
 a:visited {
     text-decoration: underline;
-    color: black;
 }
+
+
 
 
 button {  
