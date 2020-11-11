@@ -78,7 +78,7 @@ body {
 
 .container {
     position: relative;
-    margin: 0 auto;
+    margin: auto;
     align-content: center;
     z-index: 1;
     max-width: 1000px;
@@ -97,6 +97,7 @@ body {
     color: #ffff;
     padding: 0 20% 0 20%;
     display: inline-block;
+    line-height: 32px;
 }
 
 a:link {
